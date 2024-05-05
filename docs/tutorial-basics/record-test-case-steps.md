@@ -1,0 +1,23 @@
+---
+sidebar_position: 3
+---
+
+# Record Test Case Steps
+## Prerequisites
+
+Before start recording steps for test case in iZiTest, ensure that you have installed the [iZiTest Chrome extension](https://chromewebstore.google.com/detail/izitest/jccdlahjcpgcoolknheeddgdpfgpniho). The extension allows you to record user interactions on web applications and automatically generate test steps in Gherkin format.
+
+:::note
+The extension is only available for Google Chrome browser. If you use browser private mode you need to [allow the extension to work in private mode](/docs/tutorial-extras/allow-extension-private-mode.md).
+:::
+
+## Steps to Record Test Case Steps
+Go to Test Case page and follow these steps to record test case steps:
+1. **Start Recording:** You can start recording by clicking on the **Record** button in tab **Conception**. Then, the project application will be opened in a new chrome window at the base URL, and you can start recording.
+    <br/>![screenshot-projects-menu](/img/record-button.png)
+2. **Record Steps:** Perform the user interactions on the web application that you want to test. The chrome extension will automatically capture these interactions and convert them into Gherkin steps.
+<br/>![screenshot-projects-menu](/img/start-recording.png)
+3. **Stop Recording:** Once you have completed the user interactions, click on the **Stop** button. The recorded steps will be displayed in tab **Conception**.
+<br/>![screenshot-projects-menu](/img/recorded-steps-example.png)
+4. **Save the Test Case:** Click the **Save Changes** button to save the recorded steps as a test case.
+<br/>![screenshot-projects-menu](/img/save-test-changes.png)
