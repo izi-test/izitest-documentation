@@ -8,7 +8,7 @@ sidebar_position: 4
 Before start recording steps for test case in iZiTest, ensure that you have installed the [iZiTest Chrome extension](https://chromewebstore.google.com/detail/izitest/jccdlahjcpgcoolknheeddgdpfgpniho). The extension allows you to execute a test case locally on your chrome browser and automatically generate test results.
 
 :::note
-The extension is only available for Google Chrome browser. If you use browser private mode you need to [allow the extension to work in private mode](/docs/tutorial-extras/allow-extension-private-mode.md).
+The extension is only available for Google Chrome browser. If you use browser private mode you need to [allow the extension to work in private mode](/docs/configuration/allow-extension-private-mode.md).
 :::
 
 ## Steps to Execute a Test Case

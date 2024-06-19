@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'iZiTest',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Easy, Fast, with more Tests',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -129,6 +129,10 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
       },
     }),
 };

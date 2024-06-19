@@ -1,0 +1,45 @@
+---
+sidebar_position: 1
+---
+import cucumberView from '@site/static/img/test-cucumber-view.png';
+import actionsView from '@site/static/img/actions-view.png';
+import dataView from '@site/static/img/data-view.png';
+
+
+# Test Cases Features
+
+## Overview
+
+With iZiTest you can easily create and manage test cases by using the Test Cases feature. The Test Case page contains 3 tabs: Conception, Execution, and Report.
+
+## Conception
+
+The Conception tab is where you record and manage the test case. You can also edit the test configuration to prepare for test recording and execution.
+
+To record a test case, click on the **Record** button, and a new browser window will open and navigate to **the test configuration base url**. The Recorder will capture all the actions you perform on the web page. Once you have finished recording, click on the Stop button to save the test case.
+All the recorded actions will be displayed in the **Cucumber** section as Gherkin steps, and in the **Actions** section will be displayed as a timeline of actions with screenshots.
+
+### Cucumber view
+
+:::info
+Cucumber is a tool that supports Behavior-Driven Development (BDD) and allows you to write test cases in a human-readable format. The Gherkin syntax is used to write the test cases in Cucumber.
+:::
+The cucumber section displays the Gherkin steps of the recorded test case. You can edit the steps, add new steps, delete steps, group steps, and display step actions with more details.
+<img src={cucumberView} alt="Test cucumber view" />
+
+### Actions view
+
+The Actions section displays the timeline of actions with screenshots. You can view the screenshots of each action.
+<img src={actionsView} alt="actions view" />
+
+### Data view
+
+The Data section displays the data used in the test case. You can view the data used in the test case and edit the data.
+<img src={dataView} alt="data view" />
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+---
+sidebar_position: 1
+---
+import configurationGeneral from '@site/static/img/configuration-general.png'
+import configurationBrowser from '@site/static/img/configuration-browser.png'
+import configurationReport from '@site/static/img/configuration-report.png'
+
+# 🛠️ Project Configuration
+
+## 🌐 General Configuration
+<img src={configurationGeneral} alt="Global Configuration" width={600} style={{paddingLeft:35}}/>
+### URL
+- **Description**: The base URL of the web application to be tested.
+- **Field**: URL (e.g., `https://b24-d7fx0x.bitrix24.com`)
+- **Required**: Yes
+
+### Environment
+- **Description**: The environment where the tests will be executed.
+- **Field**: Environment (e.g., `staging`)
+- **Required**: Yes
+
+## 🌐 Browser Configuration
+<img src={configurationBrowser} alt="Browser Configuration" width={600} style={{paddingLeft:35}}/>
+### 🖥️ Browser Resolution
+- **Description**: Defines the resolution of the browser window used during test execution.
+- **Field**: Browser resolution (e.g., `1920x1080`)
+- **Required**: Yes
+
+### 🔍 Default Remote Browser
+- **Description**: Specifies the browser type to be used for remote test execution.
+- **Field**: Default remote browser (e.g., `Firefox`)
+- **Required**: Yes
+
+### 🕵️‍♂️ Navigation Privacy
+- **Description**: Determines whether the browser will run in incognito mode during test execution.
+- **Field**: Navigation privacy (e.g., `Incognito`)
+- **Required**: Optional
+
+### 🌍 Locale
+- **Description**: Sets the locale for the browser during test execution.
+- **Field**: Locale (e.g., `French`)
+- **Required**: Optional
+
+### ⏰ Time Zone
+- **Description**: Defines the time zone for the browser during test execution.
+- **Field**: TimeZone (e.g., `Europe/Paris`)
+- **Required**: Optional
+
+## 📊 Report Configuration
+<img src={configurationReport} alt="Report Configuration" width={600} style={{paddingLeft:35}}/>
+### 🎥 Video Replay
+- **Description**: Configures whether a video replay of the test execution is recorded and under what conditions.
+- **Field**: Video replay (e.g., `Only Failures`)
+- **Required**: Optional
+
+### 📸 Take Screenshot
+- **Description**: Determines if a screenshot should be taken during test execution.
+- **Field**: Take screenshot (e.g., `Enabled`)
+- **Required**: Optional

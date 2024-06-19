@@ -1,0 +1,58 @@
+---
+sidebar_position: 1
+---
+
+import displayStepActions from '@site/static/img/display-step-actions.gif';
+import deleteStepAction from '@site/static/img/delete-step-action.gif';
+import elementProperties from '@site/static/img/element-properties.gif';
+import udpateElement from '@site/static/img/update-element.gif';
+import waitBeforeAction from '@site/static/img/wait-before-action.gif';
+import highlightElement from '@site/static/img/highlight-element.gif';
+
+# Step details
+
+A step contains one or more actions that is performed in the test case. Each step has a type, a target, and a value. The type of the step defines the action that will be performed, the target is the element that the action will be performed on, and the value is the data that will be used in the action.
+
+## Types of steps
+List of existing types of steps:
+- **Click**: Click on the element.
+- **Type**: Type text in the element.
+- **Select**: Select an option from the dropdown.
+- **Choice**: Choose an option from the list of options.
+- **Check**: Check the checkbox.
+- **Navigate**: Navigate to the URL.
+- **Password**: Type password in the input type password.
+- **Email**: Type email in input type email.
+- **Search**: Type search in the input type search.
+- **ClickList**: Click on the element from the list of elements, by text or index. (e.g. click on result of search by text "Hello World" or by index 1)
+- **ClickMenu**: Click on the menu item from the list of menu items, identified by text.
+- **ClickBox**: Click on the element from the list of elements, by first identifying the box (element that contains the text).
+- **KeyPress**: Press a key on the element. (e.g. press the "Enter" key on the input element)
+- **Assertion**: Verify the element. (e.g. verify that the element contains the text "Hello World")
+
+## Manage step actions
+To edit a step, hover over the step and click on the function icon and the step details will be displayed in the right panel. You can manage step actions in the right panel.
+<img src={displayStepActions} alt="Display step actions" width={600} />
+In Step actions management, you can:
+
+#### Delete action
+To delete an action, click on the delete icon.
+<img src={deleteStepAction} alt="Delete step action" width={600} />
+#### Check Element properties
+In the step details, you can check the element properties in section "Element properties". You can see the element properties such as tag name, id, class, text, and attributes.
+<img src={elementProperties} alt="Element properties" width={600} />
+#### Update Element
+To update the element, click on the update icon and a modal will be displayed to update the element. You can update the element by clicking on the element in the browser. After, you can compare the updated element with the previous element and click on the save button to save the updated element.
+<img src={udpateElement} alt="Update element" width={600} />
+#### Add a wait time before the action
+You can add a wait time before the action is performed. The wait time is in seconds.
+<img src={waitBeforeAction} alt="Wait before action" width={600} />
+#### Highlight the element
+You can highlight the element by clicking on the highlight icon. A new window will open to execute all steps before the highlighted element.
+<img src={highlightElement} alt="Highlight element" width={600} />
+
+
+
+
+
+

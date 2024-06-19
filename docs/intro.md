@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# iZiTest: Effortless Automation Testing
+# Introduction
 
 Welcome to iZiTest, your one-stop platform for creating, managing, and executing automated tests for web applications. With Izitest, you can achieve fast, reliable, and collaborative testing without the need for extensive coding knowledge.
 
