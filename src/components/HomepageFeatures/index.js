@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/easy-to-use.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          iZiTest was designed to be easily installed and used, allowing you to quickly launch your automated web tests.
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/fast-to-market.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          iZiTest lets you focus on your testing while we take care of the rest. Create and execute tests swiftly.
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/save-money.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          Maximize your budget with iZiTest’s affordable and scalable testing solutions.
       </>
     ),
   },
